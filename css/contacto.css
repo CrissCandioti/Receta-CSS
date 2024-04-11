@@ -1,0 +1,9 @@
+body{
+    background-image: url(../static/img/kitchen-spoons-diner-cooking-ART-darkness-screenshot-101393.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+footer {
+    margin-top: calc(37vh + 4.5px);
+  }

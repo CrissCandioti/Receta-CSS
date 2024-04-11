@@ -1,0 +1,12 @@
+/*Por Etiqueta*/
+body{
+    background-image: url(../static/img/kitchen-spoons-diner-cooking-ART-darkness-screenshot-101393.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}

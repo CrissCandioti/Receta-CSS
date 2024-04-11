@@ -1,0 +1,16 @@
+/*Por Etiqieta*/
+body{
+    background-image: url(../static/img/kitchen-spoons-diner-cooking-ART-darkness-screenshot-101393.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+}
+/*Por Clases*/
+/*Por ID*/

@@ -1,0 +1,52 @@
+body {
+  background-image: url(../static/img/kitchen-spoons-diner-cooking-ART-darkness-screenshot-101393.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+main {
+  color: white;
+}
+#select{
+  width: 200px;
+}
+
+/*Para cambiar de color el border de los Input*/
+.form-control:focus {
+  border-color: #dc3545; /* Color rojo para el borde */
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25); /* Efecto de resaltado rojo */
+}
+
+/*Para cambiar el borde del select*/
+.form-select:focus {
+  border-color: #dc3545; /* Color rojo para el borde */
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25); /* Efecto de resaltado rojo */
+}
+
+/*Para ocultar las flechas de un Input Type="number"*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Para cambiar de color la marca del checkbox*/
+.form-check-input:checked {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+/* Cambia el color de fondo de la casilla de verificación cuando está marcada */
+.form-check-input:checked:after {
+  background-color: #dc3545;
+}
+
+/*Para cambiar el focus de un checkbox antes y despues de selccionarlo*/
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5); /* Efecto de resaltado rojo al enfocar */
+}
+.form-check-input:checked:focus {
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5); /* Efecto de resaltado rojo al enfocar después de seleccionar */
+}
+
+
+
